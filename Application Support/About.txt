@@ -1,0 +1,20 @@
+Version 0.2.2
+ + Using Swift (not c++)
+ + Simplified prefs and install
+ + other minor tweaks
+
+
+Version 0.2.1
+Bug fixes.
+Sync is now more useful (but could be applied}
+
+Version 0.2.0
+Now runs from c++ install file.
+Todo: Convert everything this way.
+
+RattleApps Version 0.1.1
+*Shared folder chosen as base for “Change Prefs” app. This should stop it failing when folders are renamed.
+
+TODO: fix this permanently.
+
+RattleApps Version 0.1.0

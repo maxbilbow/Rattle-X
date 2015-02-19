@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		508B271A1A86695000B8CA8A /* Rattle_X.h in Headers */ = {isa = PBXBuildFile; fileRef = 508B27191A86695000B8CA8A /* Rattle_X.h */; };
+		508B271C1A86695000B8CA8A /* Rattle_X.m in Sources */ = {isa = PBXBuildFile; fileRef = 508B271B1A86695000B8CA8A /* Rattle_X.m */; };
+		508B271E1A86695000B8CA8A /* Rattle_X.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 508B271D1A86695000B8CA8A /* Rattle_X.tiff */; };
+		508B27211A86695000B8CA8A /* Rattle_X.xib in Resources */ = {isa = PBXBuildFile; fileRef = 508B271F1A86695000B8CA8A /* Rattle_X.xib */; };
+		50CCACB71A956FBA00D6488A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCACB61A956FBA00D6488A /* AppDelegate.swift */; };
+		50CCACB91A956FBA00D6488A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCACB81A956FBA00D6488A /* ViewController.swift */; };
+		50CCACBC1A956FBA00D6488A /* Rattle_X__Swift_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50CCACBA1A956FBA00D6488A /* Rattle_X__Swift_.xcdatamodeld */; };
+		50CCACBE1A956FBA00D6488A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACBD1A956FBA00D6488A /* Images.xcassets */; };
+		50CCACC11A956FBA00D6488A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACBF1A956FBA00D6488A /* Main.storyboard */; };
+		50CCACCD1A956FBA00D6488A /* Rattle_X__Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCACCC1A956FBA00D6488A /* Rattle_X__Swift_Tests.swift */; };
+		50CCACDC1A956FEA00D6488A /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACD51A956FEA00D6488A /* About.txt */; };
+		50CCACDD1A956FEA00D6488A /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACD51A956FEA00D6488A /* About.txt */; };
+		50CCACDE1A956FEA00D6488A /* dev.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACD61A956FEA00D6488A /* dev.sh */; };
+		50CCACDF1A956FEA00D6488A /* dev.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACD61A956FEA00D6488A /* dev.sh */; };
+		50CCACE01A956FEA00D6488A /* functions.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACD71A956FEA00D6488A /* functions.sh */; };
+		50CCACE11A956FEA00D6488A /* functions.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACD71A956FEA00D6488A /* functions.sh */; };
+		50CCACE21A956FEA00D6488A /* install.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACD81A956FEA00D6488A /* install.sh */; };
+		50CCACE31A956FEA00D6488A /* install.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACD81A956FEA00D6488A /* install.sh */; };
+		50CCACE41A956FEA00D6488A /* popups.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACD91A956FEA00D6488A /* popups.sh */; };
+		50CCACE51A956FEA00D6488A /* popups.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACD91A956FEA00D6488A /* popups.sh */; };
+		50CCACE61A956FEA00D6488A /* sync-archive.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACDA1A956FEA00D6488A /* sync-archive.sh */; };
+		50CCACE71A956FEA00D6488A /* sync-archive.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACDA1A956FEA00D6488A /* sync-archive.sh */; };
+		50CCACE81A956FEA00D6488A /* version.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACDB1A956FEA00D6488A /* version.sh */; };
+		50CCACE91A956FEA00D6488A /* version.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50CCACDB1A956FEA00D6488A /* version.sh */; };
+		50CCACEC1A95703800D6488A /* ScriptExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCACEB1A95703800D6488A /* ScriptExecuter.swift */; };
+		50CCACED1A95703800D6488A /* ScriptExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCACEB1A95703800D6488A /* ScriptExecuter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50CCACC71A956FBA00D6488A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 508B270B1A86695000B8CA8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50CCACB11A956FBA00D6488A;
+			remoteInfo = "Rattle X (Swift)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		508B27141A86695000B8CA8A /* Rattle X.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rattle X.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
+		508B27181A86695000B8CA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		508B27191A86695000B8CA8A /* Rattle_X.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rattle_X.h; sourceTree = "<group>"; };
+		508B271B1A86695000B8CA8A /* Rattle_X.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rattle_X.m; sourceTree = "<group>"; };
+		508B271D1A86695000B8CA8A /* Rattle_X.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Rattle_X.tiff; sourceTree = "<group>"; };
+		508B27201A86695000B8CA8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Rattle_X.xib; sourceTree = "<group>"; };
+		50CCACB21A956FBA00D6488A /* Rattle X (Swift).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rattle X (Swift).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CCACB51A956FBA00D6488A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50CCACB61A956FBA00D6488A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50CCACB81A956FBA00D6488A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50CCACBB1A956FBA00D6488A /* Rattle_X__Swift_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rattle_X__Swift_.xcdatamodel; sourceTree = "<group>"; };
+		50CCACBD1A956FBA00D6488A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50CCACC01A956FBA00D6488A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50CCACC61A956FBA00D6488A /* Rattle X (Swift)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rattle X (Swift)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CCACCB1A956FBA00D6488A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50CCACCC1A956FBA00D6488A /* Rattle_X__Swift_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rattle_X__Swift_Tests.swift; sourceTree = "<group>"; };
+		50CCACD51A956FEA00D6488A /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; };
+		50CCACD61A956FEA00D6488A /* dev.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = dev.sh; sourceTree = "<group>"; };
+		50CCACD71A956FEA00D6488A /* functions.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = functions.sh; sourceTree = "<group>"; };
+		50CCACD81A956FEA00D6488A /* install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		50CCACD91A956FEA00D6488A /* popups.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = popups.sh; sourceTree = "<group>"; };
+		50CCACDA1A956FEA00D6488A /* sync-archive.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "sync-archive.sh"; sourceTree = "<group>"; };
+		50CCACDB1A956FEA00D6488A /* version.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = version.sh; sourceTree = "<group>"; };
+		50CCACEA1A95703800D6488A /* Rattle X-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rattle X-Bridging-Header.h"; sourceTree = "<group>"; };
+		50CCACEB1A95703800D6488A /* ScriptExecuter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptExecuter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		508B27101A86695000B8CA8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CCACAF1A956FBA00D6488A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CCACC31A956FBA00D6488A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		508B270A1A86695000B8CA8A = {
+			isa = PBXGroup;
+			children = (
+				50CCACD41A956FEA00D6488A /* Application Support */,
+				508B27161A86695000B8CA8A /* Objective-C Pref Pane */,
+				50CCACB31A956FBA00D6488A /* Rattle X (Swift) */,
+				50CCACC91A956FBA00D6488A /* Rattle X (Swift)Tests */,
+				508B27151A86695000B8CA8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		508B27151A86695000B8CA8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				508B27141A86695000B8CA8A /* Rattle X.prefPane */,
+				50CCACB21A956FBA00D6488A /* Rattle X (Swift).app */,
+				50CCACC61A956FBA00D6488A /* Rattle X (Swift)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		508B27161A86695000B8CA8A /* Objective-C Pref Pane */ = {
+			isa = PBXGroup;
+			children = (
+				508B27191A86695000B8CA8A /* Rattle_X.h */,
+				508B271B1A86695000B8CA8A /* Rattle_X.m */,
+				508B271D1A86695000B8CA8A /* Rattle_X.tiff */,
+				508B271F1A86695000B8CA8A /* Rattle_X.xib */,
+				508B27171A86695000B8CA8A /* Supporting Files */,
+			);
+			name = "Objective-C Pref Pane";
+			path = "Rattle X";
+			sourceTree = "<group>";
+		};
+		508B27171A86695000B8CA8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				508B27181A86695000B8CA8A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50CCACB31A956FBA00D6488A /* Rattle X (Swift) */ = {
+			isa = PBXGroup;
+			children = (
+				50CCACEB1A95703800D6488A /* ScriptExecuter.swift */,
+				50CCACB61A956FBA00D6488A /* AppDelegate.swift */,
+				50CCACB81A956FBA00D6488A /* ViewController.swift */,
+				50CCACBD1A956FBA00D6488A /* Images.xcassets */,
+				50CCACBF1A956FBA00D6488A /* Main.storyboard */,
+				50CCACBA1A956FBA00D6488A /* Rattle_X__Swift_.xcdatamodeld */,
+				50CCACB41A956FBA00D6488A /* Supporting Files */,
+				50CCACEA1A95703800D6488A /* Rattle X-Bridging-Header.h */,
+			);
+			path = "Rattle X (Swift)";
+			sourceTree = "<group>";
+		};
+		50CCACB41A956FBA00D6488A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50CCACB51A956FBA00D6488A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50CCACC91A956FBA00D6488A /* Rattle X (Swift)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				50CCACCC1A956FBA00D6488A /* Rattle_X__Swift_Tests.swift */,
+				50CCACCA1A956FBA00D6488A /* Supporting Files */,
+			);
+			path = "Rattle X (Swift)Tests";
+			sourceTree = "<group>";
+		};
+		50CCACCA1A956FBA00D6488A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50CCACCB1A956FBA00D6488A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50CCACD41A956FEA00D6488A /* Application Support */ = {
+			isa = PBXGroup;
+			children = (
+				50CCACD51A956FEA00D6488A /* About.txt */,
+				50CCACD61A956FEA00D6488A /* dev.sh */,
+				50CCACD71A956FEA00D6488A /* functions.sh */,
+				50CCACD81A956FEA00D6488A /* install.sh */,
+				50CCACD91A956FEA00D6488A /* popups.sh */,
+				50CCACDA1A956FEA00D6488A /* sync-archive.sh */,
+				50CCACDB1A956FEA00D6488A /* version.sh */,
+			);
+			path = "Application Support";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		508B27111A86695000B8CA8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				508B271A1A86695000B8CA8A /* Rattle_X.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		508B27131A86695000B8CA8A /* Rattle X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508B27241A86695000B8CA8A /* Build configuration list for PBXNativeTarget "Rattle X" */;
+			buildPhases = (
+				508B270F1A86695000B8CA8A /* Sources */,
+				508B27101A86695000B8CA8A /* Frameworks */,
+				508B27111A86695000B8CA8A /* Headers */,
+				508B27121A86695000B8CA8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rattle X";
+			productName = "Rattle X";
+			productReference = 508B27141A86695000B8CA8A /* Rattle X.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+		50CCACB11A956FBA00D6488A /* Rattle X (Swift) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CCACCE1A956FBA00D6488A /* Build configuration list for PBXNativeTarget "Rattle X (Swift)" */;
+			buildPhases = (
+				50CCACAE1A956FBA00D6488A /* Sources */,
+				50CCACAF1A956FBA00D6488A /* Frameworks */,
+				50CCACB01A956FBA00D6488A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rattle X (Swift)";
+			productName = "Rattle X (Swift)";
+			productReference = 50CCACB21A956FBA00D6488A /* Rattle X (Swift).app */;
+			productType = "com.apple.product-type.application";
+		};
+		50CCACC51A956FBA00D6488A /* Rattle X (Swift)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CCACD11A956FBA00D6488A /* Build configuration list for PBXNativeTarget "Rattle X (Swift)Tests" */;
+			buildPhases = (
+				50CCACC21A956FBA00D6488A /* Sources */,
+				50CCACC31A956FBA00D6488A /* Frameworks */,
+				50CCACC41A956FBA00D6488A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50CCACC81A956FBA00D6488A /* PBXTargetDependency */,
+			);
+			name = "Rattle X (Swift)Tests";
+			productName = "Rattle X (Swift)Tests";
+			productReference = 50CCACC61A956FBA00D6488A /* Rattle X (Swift)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		508B270B1A86695000B8CA8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rattle Media Ltd";
+				TargetAttributes = {
+					508B27131A86695000B8CA8A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					50CCACB11A956FBA00D6488A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					50CCACC51A956FBA00D6488A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 50CCACB11A956FBA00D6488A;
+					};
+				};
+			};
+			buildConfigurationList = 508B270E1A86695000B8CA8A /* Build configuration list for PBXProject "Rattle X" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 508B270A1A86695000B8CA8A;
+			productRefGroup = 508B27151A86695000B8CA8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				508B27131A86695000B8CA8A /* Rattle X */,
+				50CCACB11A956FBA00D6488A /* Rattle X (Swift) */,
+				50CCACC51A956FBA00D6488A /* Rattle X (Swift)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		508B27121A86695000B8CA8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CCACE81A956FEA00D6488A /* version.sh in Resources */,
+				50CCACDC1A956FEA00D6488A /* About.txt in Resources */,
+				508B27211A86695000B8CA8A /* Rattle_X.xib in Resources */,
+				50CCACDE1A956FEA00D6488A /* dev.sh in Resources */,
+				508B271E1A86695000B8CA8A /* Rattle_X.tiff in Resources */,
+				50CCACE61A956FEA00D6488A /* sync-archive.sh in Resources */,
+				50CCACE21A956FEA00D6488A /* install.sh in Resources */,
+				50CCACE41A956FEA00D6488A /* popups.sh in Resources */,
+				50CCACE01A956FEA00D6488A /* functions.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CCACB01A956FBA00D6488A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CCACE91A956FEA00D6488A /* version.sh in Resources */,
+				50CCACDD1A956FEA00D6488A /* About.txt in Resources */,
+				50CCACBE1A956FBA00D6488A /* Images.xcassets in Resources */,
+				50CCACDF1A956FEA00D6488A /* dev.sh in Resources */,
+				50CCACC11A956FBA00D6488A /* Main.storyboard in Resources */,
+				50CCACE71A956FEA00D6488A /* sync-archive.sh in Resources */,
+				50CCACE31A956FEA00D6488A /* install.sh in Resources */,
+				50CCACE51A956FEA00D6488A /* popups.sh in Resources */,
+				50CCACE11A956FEA00D6488A /* functions.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CCACC41A956FBA00D6488A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		508B270F1A86695000B8CA8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				508B271C1A86695000B8CA8A /* Rattle_X.m in Sources */,
+				50CCACEC1A95703800D6488A /* ScriptExecuter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CCACAE1A956FBA00D6488A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CCACBC1A956FBA00D6488A /* Rattle_X__Swift_.xcdatamodeld in Sources */,
+				50CCACED1A95703800D6488A /* ScriptExecuter.swift in Sources */,
+				50CCACB91A956FBA00D6488A /* ViewController.swift in Sources */,
+				50CCACB71A956FBA00D6488A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CCACC21A956FBA00D6488A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CCACCD1A956FBA00D6488A /* Rattle_X__Swift_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50CCACC81A956FBA00D6488A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50CCACB11A956FBA00D6488A /* Rattle X (Swift) */;
+			targetProxy = 50CCACC71A956FBA00D6488A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		508B271F1A86695000B8CA8A /* Rattle_X.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				508B27201A86695000B8CA8A /* Base */,
+			);
+			name = Rattle_X.xib;
+			sourceTree = "<group>";
+		};
+		50CCACBF1A956FBA00D6488A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50CCACC01A956FBA00D6488A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		508B27221A86695000B8CA8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		508B27231A86695000B8CA8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		508B27251A86695000B8CA8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Rattle X/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rattle X (Swift)/Rattle X-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		508B27261A86695000B8CA8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Rattle X/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rattle X (Swift)/Rattle X-Bridging-Header.h";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		50CCACCF1A956FBA00D6488A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rattle X (Swift)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50CCACD01A956FBA00D6488A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Rattle X (Swift)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50CCACD21A956FBA00D6488A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rattle X (Swift)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rattle X (Swift).app/Contents/MacOS/Rattle X (Swift)";
+			};
+			name = Debug;
+		};
+		50CCACD31A956FBA00D6488A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rattle X (Swift)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rattle X (Swift).app/Contents/MacOS/Rattle X (Swift)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		508B270E1A86695000B8CA8A /* Build configuration list for PBXProject "Rattle X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508B27221A86695000B8CA8A /* Debug */,
+				508B27231A86695000B8CA8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		508B27241A86695000B8CA8A /* Build configuration list for PBXNativeTarget "Rattle X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508B27251A86695000B8CA8A /* Debug */,
+				508B27261A86695000B8CA8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50CCACCE1A956FBA00D6488A /* Build configuration list for PBXNativeTarget "Rattle X (Swift)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CCACCF1A956FBA00D6488A /* Debug */,
+				50CCACD01A956FBA00D6488A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50CCACD11A956FBA00D6488A /* Build configuration list for PBXNativeTarget "Rattle X (Swift)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CCACD21A956FBA00D6488A /* Debug */,
+				50CCACD31A956FBA00D6488A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50CCACBA1A956FBA00D6488A /* Rattle_X__Swift_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50CCACBB1A956FBA00D6488A /* Rattle_X__Swift_.xcdatamodel */,
+			);
+			currentVersion = 50CCACBB1A956FBA00D6488A /* Rattle_X__Swift_.xcdatamodel */;
+			path = Rattle_X__Swift_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 508B270B1A86695000B8CA8A /* Project object */;
+}
