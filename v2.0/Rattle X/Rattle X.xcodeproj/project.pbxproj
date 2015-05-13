@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5010EC651AF906B70013E3A3 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5010EC641AF906B70013E3A3 /* Preferences.swift */; };
+		5010EC6D1AF90B100013E3A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5010EC6C1AF90B100013E3A3 /* main.swift */; };
+		5010EC711AF90B130013E3A3 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5010EC641AF906B70013E3A3 /* Preferences.swift */; };
 		6C4377B81ADBB694004CC793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4377B71ADBB694004CC793 /* AppDelegate.swift */; };
 		6C4377BA1ADBB694004CC793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4377B91ADBB694004CC793 /* ViewController.swift */; };
 		6C4377BD1ADBB694004CC793 /* Rattle_X.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C4377BB1ADBB694004CC793 /* Rattle_X.xcdatamodeld */; };
@@ -26,7 +29,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5010EC681AF90B100013E3A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5010EC641AF906B70013E3A3 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		5010EC6A1AF90B100013E3A3 /* RattleXCMDTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RattleXCMDTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5010EC6C1AF90B100013E3A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6C4377B21ADBB694004CC793 /* Rattle X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rattle X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4377B61ADBB694004CC793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C4377B71ADBB694004CC793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +59,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5010EC671AF90B100013E3A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C4377AF1ADBB694004CC793 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,11 +83,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5010EC6B1AF90B100013E3A3 /* RattleXCMDTest */ = {
+			isa = PBXGroup;
+			children = (
+				5010EC6C1AF90B100013E3A3 /* main.swift */,
+			);
+			path = RattleXCMDTest;
+			sourceTree = "<group>";
+		};
 		6C4377A91ADBB694004CC793 = {
 			isa = PBXGroup;
 			children = (
 				6C4377B41ADBB694004CC793 /* Rattle X */,
 				6C4377CA1ADBB694004CC793 /* Rattle XTests */,
+				5010EC6B1AF90B100013E3A3 /* RattleXCMDTest */,
 				6C4377B31ADBB694004CC793 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +106,7 @@
 			children = (
 				6C4377B21ADBB694004CC793 /* Rattle X.app */,
 				6C4377C71ADBB694004CC793 /* Rattle XTests.xctest */,
+				5010EC6A1AF90B100013E3A3 /* RattleXCMDTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +121,7 @@
 				6C4377BB1ADBB694004CC793 /* Rattle_X.xcdatamodeld */,
 				6C4377B51ADBB694004CC793 /* Supporting Files */,
 				6C4377D71ADBB6D5004CC793 /* RXCommonTasks.swift */,
+				5010EC641AF906B70013E3A3 /* Preferences.swift */,
 			);
 			path = "Rattle X";
 			sourceTree = "<group>";
@@ -118,6 +154,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5010EC691AF90B100013E3A3 /* RattleXCMDTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5010EC6E1AF90B100013E3A3 /* Build configuration list for PBXNativeTarget "RattleXCMDTest" */;
+			buildPhases = (
+				5010EC661AF90B100013E3A3 /* Sources */,
+				5010EC671AF90B100013E3A3 /* Frameworks */,
+				5010EC681AF90B100013E3A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RattleXCMDTest;
+			productName = RattleXCMDTest;
+			productReference = 5010EC6A1AF90B100013E3A3 /* RattleXCMDTest */;
+			productType = "com.apple.product-type.tool";
+		};
 		6C4377B11ADBB694004CC793 /* Rattle X */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C4377D11ADBB694004CC793 /* Build configuration list for PBXNativeTarget "Rattle X" */;
@@ -162,6 +215,9 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Rattle Media";
 				TargetAttributes = {
+					5010EC691AF90B100013E3A3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 					6C4377B11ADBB694004CC793 = {
 						CreatedOnToolsVersion = 6.3;
 					};
@@ -186,6 +242,7 @@
 			targets = (
 				6C4377B11ADBB694004CC793 /* Rattle X */,
 				6C4377C61ADBB694004CC793 /* Rattle XTests */,
+				5010EC691AF90B100013E3A3 /* RattleXCMDTest */,
 			);
 		};
 /* End PBXProject section */
@@ -210,12 +267,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5010EC661AF90B100013E3A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5010EC711AF90B130013E3A3 /* Preferences.swift in Sources */,
+				5010EC6D1AF90B100013E3A3 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C4377AE1ADBB694004CC793 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6C4377BD1ADBB694004CC793 /* Rattle_X.xcdatamodeld in Sources */,
 				6C4377BA1ADBB694004CC793 /* ViewController.swift in Sources */,
+				5010EC651AF906B70013E3A3 /* Preferences.swift in Sources */,
 				6C4377B81ADBB694004CC793 /* AppDelegate.swift in Sources */,
 				6C4377D81ADBB6D5004CC793 /* RXCommonTasks.swift in Sources */,
 			);
@@ -251,6 +318,24 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5010EC6F1AF90B100013E3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5010EC701AF90B100013E3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		6C4377CF1ADBB694004CC793 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -392,6 +477,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5010EC6E1AF90B100013E3A3 /* Build configuration list for PBXNativeTarget "RattleXCMDTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5010EC6F1AF90B100013E3A3 /* Debug */,
+				5010EC701AF90B100013E3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6C4377AD1ADBB694004CC793 /* Build configuration list for PBXProject "Rattle X" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -408,6 +501,7 @@
 				6C4377D31ADBB694004CC793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C4377D41ADBB694004CC793 /* Build configuration list for PBXNativeTarget "Rattle XTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +510,7 @@
 				6C4377D61ADBB694004CC793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
